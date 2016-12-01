@@ -29,7 +29,6 @@ npm install css-loader style-loader --save-dev
     "webpack-dev-server": "^1.15.1"
   }
 }
-
 ```
 
 
@@ -80,6 +79,12 @@ Time: 882ms
 
 
 可以看到 webpack 通过配置文件执行的结果和上一章节通过命令行 `webpack entry.js bundle.js --module-bind 'css=style!css'` 执行的结果是一样的。
+
+
+
+打包编译之后页面刷新结果：
+
+![](img/img1.png)
 
 
 
